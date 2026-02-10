@@ -15,15 +15,15 @@ def hari():
     print(f'stamina: {stamina}/{max_stamina}')
     print('')
     print('Pilih kegiatan')
-    print('1.lorem ipsum')
-    print('2. dolor sit amet')
+    print('1. farming')
+    print('2. mining')
     print('3. tidur (ganti hari dan pulihkan stamina)')
     print('4. reset game (hapus data save)')
     print('Masukkan pilihanmu:')
     kegiatan = input('> ')
 
     if kegiatan == '1':
-        print('Kamu memilih kegiatan 1')
+        print('lorem ipsum')
     elif kegiatan == '2':
         print('Kamu memilih kegiatan 2')
     elif kegiatan == '3':
