@@ -14,6 +14,7 @@ class Player:
         self.stamina = status.stamina
         self.maxstamina = status.max_stamina
         self.uang = money.saldo
+        self.inventory = []
 
 class Crop:
     def __init__(self):
@@ -21,7 +22,8 @@ class Crop:
 
 class Farm:
     def __init__(self):
-        pass
+        self.slots = [None, None]
+
 
 class Game:
     def __init__(self):
@@ -52,6 +54,9 @@ class Game:
             pass
         elif pilih == "0":
             pass
+
+    def slot_tanam(self):
+        print("")
 
 game = Game()
 game.farmMenu()
